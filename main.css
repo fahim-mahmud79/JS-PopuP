@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --green-color: rgba(33, 150, 83, 1);
+    --bg-color: rgba(50, 50, 50, 0.62;);
+}
+
+body{
+
+    font-size: 62.5%;
+    background-color: #F5F5F5;
+
+}
+
+.main{
+    /* margin: 100px 200px; */
+    /* height: 500px; */
+    /* margin: auto; */
+    margin: 6% 15%;
+    max-width: 1000px;
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+}
+
+.left img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.right p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.right{
+    flex-basis: 100%;
+}
+
+.right a{
+    margin-top: 3rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--green-color);
+    padding: .8rem 1.2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.paragraphThree{
+    margin-bottom: 3rem;
+}
+
+span{
+    text-decoration: underline;
+}
+
+
+
+/* popup css here  */
+
+#container{
+    padding: 10px 20px;
+    max-width: 450px;
+    height: 370px;
+    margin: 100px auto;
+    background-color: white;
+    border: 1px solid grey;
+    position: relative;
+    border-radius: 8px;
+    top: -480px;
+    z-index: 99;
+    display: none;
+}
+
+.icon{
+    margin-top: 1.2rem;
+}
+
+.bx{
+    font-size: 1.6rem;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: rgba(33, 150, 83, 1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.newsLetter{
+    text-align: center;
+}
+
+.title h4{
+    color: #54595E;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.title p{
+    color: rgba(84, 89, 94, 0.6);
+
+}
+
+form input{
+    margin-top: 14px;
+    padding: 6px 18px;
+    margin-bottom: 14px;
+    border-radius: 4px;
+}
+
+.newsLetter a{
+    padding: 6px 60px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    background: rgba(33, 150, 83, 1);
+    border-radius: 4px;
+    font-size: 1rem;
+
+}
