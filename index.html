@@ -22,40 +22,43 @@
         </div>
     </div>
 
-    <div id="container">
-        <div class="icon">
-            <i class='bx bx-x' id="close"></i>
-        </div>
-        <div class="image">
-            <img src="img/img02.svg" alt="">
-        </div>
-        <div class="newsLetter">
-            <div class="title">
-                <h4>Subscribe to our Newsletter</h4>
-                <p>Join thousands getting emails in their inbox.</p>
+        <div id="wrapper">
+            <div id="container">
+                <div class="icon">
+                    <i class='bx bx-x' id="close"></i>
+                </div>
+                <div class="image">
+                    <img src="img/img02.svg" alt="">
+                </div>
+                <div class="newsLetter">
+                    <div class="title">
+                        <h4>Subscribe to our Newsletter</h4>
+                        <p>Join thousands getting emails in their inbox.</p>
+                    </div>
+                    <form action="">
+                        <label for="name" ></label>
+                        <input type="text" name="name" placeholder="Your Name">
+                    </form>
+                    <a href="#">Yeah, thanks!</a>
+                </div>
             </div>
-            <form action="">
-                <label for="name" ></label>
-                <input type="text" name="name" placeholder="Your Name">
-            </form>
-            <a href="#">Yeah, thanks!</a>
         </div>
-    </div>
+    
 
 
 
     <script>
-        let container = document.getElementById("container")
+        let wrapper = document.getElementById("wrapper")
         let popupBtn = document.getElementById("popup")
         let close = document.getElementById("close")
 
         popupBtn.addEventListener("click", function(){
-            container.style.display = "block"
-        })
+            wrapper.style.display = "block"
+        });
 
         close.addEventListener("click", function(){
-            container.style.display = "none"
-        })
+            wrapper.style.display = "none"
+        });
     </script>
 </body>
 </html>
